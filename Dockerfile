@@ -8,7 +8,7 @@ RUN npm install && npm run build
 FROM python:3.10-slim
 WORKDIR /app
 COPY backend/ ./backend/
-COPY requirements.txt .
+COPY backend/requirements.txt .
 RUN pip install -r requirements.txt
 
 # Copy built frontend into backend static files
