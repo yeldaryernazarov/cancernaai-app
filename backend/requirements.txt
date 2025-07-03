@@ -1,9 +1,0 @@
-fastapi
-uvicorn[standard]
-pydantic
-python-multipart
-numpy
-torch==2.2.2
-nibabel
-opencv-python-headless
-scikit-image

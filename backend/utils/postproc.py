@@ -3,7 +3,7 @@ import numpy as np
 import cv2
 from scipy.ndimage import center_of_mass
 
-def save_prediction(output_tensor, volume_tensor=None, path="/Users/yeldar/Documents/Web apps/cancernaai_app/backend/static/result.png", threshold=0.5):
+def save_prediction(output_tensor, volume_tensor=None, path="../static/result.png", threshold=0.5):
     os.makedirs(os.path.dirname(path), exist_ok=True)
 
     # Process segmentation output
