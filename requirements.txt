@@ -3,7 +3,7 @@ uvicorn[standard]
 pydantic
 python-multipart
 numpy
-torch
+torch==2.2.2+cpu -f https://download.pytorch.org/whl/torch_stable.html
 nibabel
 opencv-python-headless
 scikit-image
